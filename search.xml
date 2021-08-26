@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>魔百盒R3300L刷机教程</title>
+      <link href="/2021/08/25/r3300l/"/>
+      <url>/2021/08/25/r3300l/</url>
+      
+        <content type="html"><![CDATA[<h6 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h6><blockquote><p>我买的这款电视盒子是在闲鱼买的。40元包邮，还包含遥控器，不过这个遥控器不是很好用，买回去刷了安卓6.0固件，我感觉不是很好用，而且遥控器可以控制家里面的IPTV这就很不舒服，于是开始折腾了起来。</p></blockquote><h6 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h6><p><strong>CPU</strong>: Amlogic S905L<br><strong>RAM</strong>: DDR3 1GB<br><strong>ROM</strong>: 8GB eMMC<br><strong>WLAN</strong>: RTL8189ETV<br><strong>接口</strong>: USB2.0 * 1, MicroUSB * 1, AV * 1, HDMI * 1, Micro Sdcard Reader * 1, 10/100M eth * 1</p><blockquote><p>缺点就是网口是100M的，不然跑OpenWrt美滋滋。</p></blockquote><h6 id="外观"><a href="#外观" class="headerlink" title="外观"></a>外观</h6><p><img src="https://cdn.jsdelivr.net/gh/chenzhilinml/image/CHEY-PIC/r3300l-1.jpg" loading="lazy"><br><img src="https://cdn.jsdelivr.net/gh/chenzhilinml/image/CHEY-PIC/r3300l-2.jpg" loading="lazy"></p><blockquote><p>外观看起来还是不错的。</p></blockquote><h6 id="刷机"><a href="#刷机" class="headerlink" title="刷机"></a>刷机</h6><p><strong>需要的文件</strong>：<a href="https://cloud.189.cn/web/share?code=uUzuI36FZr63">https://cloud.189.cn/web/share?code=uUzuI36FZr63</a></p><hr><p>把下载好的<strong>usb-image-tool.rar</strong>解压，然后打开里面的<strong>USB Image Tool.exe</strong>这个文件把U盘或SD卡插进去。<br><img src="https://cdn.jsdelivr.net/gh/chenzhilinml/image/CHEY-PIC/r3300l-3.png" loading="lazy"><br>然后选择一下你下载的img镜像点确认写入就行了。</p><blockquote><p>第二种情况</p></blockquote><p>如果你的盒子没有刷过机直接关机捅AV接口里面的按钮不放然后插U盘直接可以进入Armbian系统。</p><blockquote><p>第二种情况</p></blockquote><p>如果你的盒子刷过其他的安卓固件，则需要下载一个Reboot to LibreELEC的安装包启动系统，上面的链接提了。<br><strong>最后到路由器后台查看IP就行了，用ssh连接盒子。</strong></p><hr><p><strong>默认账号</strong>：root<br><strong>密码</strong>：1234<br>进入系统会提示你改密码，改好了就可以使用了。</p><h6 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h6><p>这款盒子性能还是非常不错的，相比玩客云还是有提升的，玩玩Armbian还是绰绰有余的，平时可以装aria2下载一些电影什么的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> /教程/刷机/2021-08 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 刷机,Armbian,教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
